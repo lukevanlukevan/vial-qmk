@@ -12,21 +12,16 @@
         "mousekey": true,
         "nkro": true
     },
-    "build": {
-        "lto": true
-    },
     "matrix_pins": {
-        "direct": [
-            ["D2", "D1", "D0"],
-            ["D4", "C6", "D7"],
-            ["E6", "B4", "B5"]
-        ]
+        "cols": ["D3", "D2", "D0", "D1", "D4", "C6", "D7", "E6", "B4", "B5", "B6", "B2"],
+        "rows": ["B3", "B1", "F7", "F6"]
     },
+    "processor": "atmega32u4",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0014",
-        "vid": "0x534B"
+        "pid": "0x0000",
+        "vid": "0xFEED"
     },
     "layouts": {
         "LAYOUT_kinglily": {
@@ -64,6 +59,8 @@
 				{ "matrix": [2, 3], "x": 3, "y": 2 },
 				{ "matrix": [2, 4], "x": 4, "y": 2 },
 				{ "matrix": [2, 5], "x": 5, "y": 2 },
+				{ "matrix": [2, 6], "x": 6, "y": 2 },
+				{ "matrix": [2, 7], "x": 7, "y": 2 },
 				{ "matrix": [2, 8], "x": 8, "y": 2 },
 				{ "matrix": [2, 9], "x": 9, "y": 2 },
 				{ "matrix": [2, 10], "x": 10, "y": 2 },
@@ -93,7 +90,6 @@
 				{ "matrix": [4,9], "x": 10, "y": 4 },
 				{ "matrix": [4,10], "x": 11, "y": 4 }
 			]
-
         }
     }
 }
