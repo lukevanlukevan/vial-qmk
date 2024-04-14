@@ -1,6 +1,6 @@
 {
     "manufacturer": "Luke Van",
-    "keyboard_name": "lukevanlukevan/corne",
+    "keyboard_name": "Corne-ish",
     "maintainer": "lukevanlukevan",
     "bootloader": "caterina",
     "diode_direction": "COL2ROW",
@@ -13,8 +13,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2", "C2"],
-        "rows": ["D1", "D1", "D1", "D1"]
+        "cols": [ "B3", "F6", "B1", "F7", "F5", "B2", "C6", "D2", "D4", "D3", "D1", "D0"],
+        "rows": ["E6", "B4", "B5", "B6"]
     },
     "processor": "atmega32u4",
     "url": "",
@@ -65,9 +65,9 @@
                 {"matrix": [3, 3], "x": 3.5, "y": 3.25},
                 {"matrix": [3, 4], "x": 4.5, "y": 3.5},
                 {"matrix": [3, 5], "x": 5.5, "y": 3.75},
-                {"matrix": [3, 7], "x": 7.5, "y": 3.75},
-                {"matrix": [3, 8], "x": 8.5, "y": 3.5},
-                {"matrix": [3, 9], "x": 9.5, "y": 3.25}
+                {"matrix": [3, 6], "x": 7.5, "y": 3.75},
+                {"matrix": [3, 7], "x": 8.5, "y": 3.5},
+                {"matrix": [3, 8], "x": 9.5, "y": 3.25}
             ]
         }
     }
