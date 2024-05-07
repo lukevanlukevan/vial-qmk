@@ -15,15 +15,12 @@
         "extrakey": true
     },
     "matrix_pins": {
-        "rows": ["F4", "F6", "D7", "E6", "B4"],
-        "cols": ["B5", "F7", "B1", "B3", "B2", "B6"]
+        "rows": ["GP8", "GP9", "GP10", "GP11"],
+        "cols": ["GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7"]
     },
     "processor": "RP2040",
-    "split": {
-        "bootmagic": {
-            "matrix": [0, 0]
-        },
-        "soft_serial_pin": "D2"
+	"split": {
+		"enabled": true
     },
     "layouts": {
         "LAYOUT_split_3x7_4": {
@@ -76,9 +73,9 @@
 				{"label": "L33", "matrix": [3, 2], "x": 2, "y": 3},
 				{"label": "L34", "matrix": [3, 3], "x": 3, "y": 3},
 				{"label": "L35", "matrix": [3, 4], "x": 4, "y": 3},
-				{"label": "L36", "matrix": [3, 5], "x": 5, "y": 3},
+				{"label": "L36", "matrix": [3, 6], "x": 5, "y": 3},
 
-				{"label": "R36", "matrix": [7, 5], "x": 8, "y": 3},
+				{"label": "R36", "matrix": [7, 6], "x": 8, "y": 3},
 				{"label": "R35", "matrix": [7, 4], "x": 9, "y": 3},
 				{"label": "R34", "matrix": [7, 3], "x": 10, "y": 3},
 				{"label": "R33", "matrix": [7, 2], "x": 11, "y": 3}

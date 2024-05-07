@@ -18,5 +18,6 @@
 
 // `SPLIT_HAND_PIN` can currently be defined in `info.json`,
 // but can't yet be given a value
-#define SPLIT_HAND_PIN F5
+#define SERIAL_USART_HALF_DUPLEX   // Enable full duplex operation mode.
+#define SERIAL_USART_TX_PIN GP12   // Serial TX pin
 
