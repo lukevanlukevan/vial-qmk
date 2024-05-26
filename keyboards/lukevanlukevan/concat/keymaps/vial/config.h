@@ -4,4 +4,3 @@
 /* Vial secure unlock - currently using both big keys, like with base lily58 */
 #define VIAL_UNLOCK_COMBO_ROWS {0}
 #define VIAL_UNLOCK_COMBO_COLS {0}
-
